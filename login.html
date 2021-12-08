@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login Account</title>
+</head>
+<body>
+    
+<section class="login">
+    <div class="container">
+        <div class="row">
+            <div class="col md-3"></div>
+            <div class="col-md-6">
+                
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                    <h1>Login to Your <span style="color: #007CF5;">Account</span></h1>
+                    <div class="container-part">
+                      <label for="uname " ><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                    </div>
+                
+                    <div class="container">
+                        <button class="sett" type="submit">Login</button>
+                      <span class="psw"> <a href="#"> Lost your password?</a></span>
+                    </div>
+                    <hr>
+                  <h6>New user...?<button class="sign-up" type="submit">Sign Up Now</button></h6>
+                  </form>
+                  
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
